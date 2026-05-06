@@ -34,9 +34,8 @@ jobs:
           cd node-app
           git pull origin master
           npm install
-          pm2 restart my-app
-
-          
+          pm2 describe my-app > /dev/null 2>&1 && pm2 restart my-app || pm2 start index.js --name my-app
+          pm2 save
 
           
 
