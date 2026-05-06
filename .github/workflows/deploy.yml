@@ -28,7 +28,7 @@ jobs:
         username: ${{ secrets.VM_USER }}
 
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-
+        script_stop: true
         script: |
 
           cd node-app
