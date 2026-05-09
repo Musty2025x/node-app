@@ -32,6 +32,7 @@ Azure VM — Ubuntu 24.04 (node-app-vm)
        ▼
 https://www.mustydevops.com.ng
 ```
+<img width="2176" height="1357" alt="architectural_design" src="https://github.com/user-attachments/assets/12fe778d-5399-42cf-bd2b-3160e32d8f8c" />
 
 ---
 
